@@ -29,7 +29,7 @@ module.exports = {
         lime: colors.lime ,
         teal: colors.teal , 
         indigo: colors.indigo,
-        purple: colors.purple ,
+        purple: colors.blue ,
         pink: colors.pink
     },
     extend: {
