@@ -1,7 +1,7 @@
 <template>
     <div ref="dialogContainer" class="modal z-modal w-full bg-white" :class="classe">
         
-        <div ref="dialogHeader" class="dialogHeader capitalize cursor-move h-10 w-full flex items-center text-white text-base px-2 bg-purple-800 rounded-t" >
+        <div ref="dialogHeader" class="dialogHeader capitalize cursor-move h-10 w-full flex items-center text-white text-base px-2 bg-blue-800 rounded-t" >
             {{ title }}
             <m-icon class="cursor-pointer absolute top-0 right-0 z-highest text-gray-100 mt-1 text-2xl" icon="close" @click="closeDialog"/>
         </div>
