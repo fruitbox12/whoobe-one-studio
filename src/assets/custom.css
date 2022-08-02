@@ -46,7 +46,7 @@
 }
 
 .icon-button:hover {
-    @apply text-purple-500;
+    @apply border-blue-800;
 }
 
 [contenteditable] {
