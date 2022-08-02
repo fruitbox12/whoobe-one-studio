@@ -3,7 +3,7 @@
         
         <div class="modal w-5/6" v-if="!preview">
             <div class="w-full md:w-1/2 lg:w-1/3 py-10 m-auto cursor-pointer relative flex flex-col items-center justify-center p-4 text-white rounded-lg shadow-xl" style="font-family:'Barlow Condensed'">
-                <h1 class="m-auto">Octane<span class="text-purple-500 font-bold">UAP</span>  <m-icon icon="bubble_chart" class="text-3xl text-yellow-500"/></h1>
+                <h1 class="m-auto">Octane<span class="text-blue-500 font-bold">UAP</span>  <m-icon icon="bubble_chart" class="text-3xl text-yellow-500"/></h1>
                 <div class="text-base text-gray-400 -mb-8">Page builder for Web3</div>
             </div>
             <transition name="fade">
@@ -14,7 +14,7 @@
         <div v-if="!start" class="flex flex-col p-4 m-auto w-1/2 bg-gray-600 mt-20 text-white text-base justify-center items-center text-center rounded-lg">
             <div class="p-4">Templates library not found.</br>Do you want to install the default WhoobeOne library?</div>
             <div class="flex justify-around w-full">
-                <button class="lg bg-purple-500 btn" @click="$importDB()">Load library</button>
+                <button class="lg bg-blue-800 btn" @click="$importDB()">Load library</button>
                 <button class="lg bg-blue-400 btn" @click="start=!start">Proceed</button>
             </div>
         </div>
