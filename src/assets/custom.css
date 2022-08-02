@@ -113,7 +113,7 @@
 }
 
 *[data-slider-tag]:hover::before {
-    @apply leading-tight block right-0 mr-10  bg-purple-800 text-gray-300 px-1 rounded-lg;
+    @apply leading-tight block right-0 mr-10  bg-blue-800 text-gray-300 px-1 rounded-lg;
     content: attr(data-slider-tag);
     position:absolute;
     top:-10px;
