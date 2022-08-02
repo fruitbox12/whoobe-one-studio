@@ -12,7 +12,7 @@
             <label>Categories</label>
             <div class="flex flex-wrap cursor-pointer">
                 <template v-for="(category,index) in settings.categories">
-                    <span class="chip bg-purple-300 rounded-lg m-1" @click="removeCategory(index)">{{ category }}</span>
+                    <span class="chip bg-blue-800 rounded-lg m-1" @click="removeCategory(index)">{{ category }}</span>
                 </template>
             </div>
             <input type="text" v-model="newCategory" placeholder="new category" @keydown="addCategory($event)"/>
